@@ -3,11 +3,19 @@ language: yaml
 filename: learnyaml.yaml
 contributors:
   - ["Adam Brenecki", "https://github.com/adambrenecki"]
+    ["Babacar Gueye", "https://github.com/gueyeb"]
+lang: fr-fr
 ---
 
+YAML est un langage de sérialisation de données conçu pour être directement
+inscriptible et lisible par l'homme.
 YAML is a data serialisation language designed to be directly writable and
 readable by humans.
 
+C'est un superset script de JSON, avec l'ajout de nouvelles lignes
+syntaxiquement significatives et de l'indentation, comme Python. Contrairement
+à ce dernier cependant, YAML n'autorise pas les caractères de tabulation
+littérale du tout.
 It's a strict superset of JSON, with the addition of syntactically
 significant newlines and indentation, like Python. Unlike Python, however,
 YAML doesn't allow literal tab characters at all.
